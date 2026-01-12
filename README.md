@@ -52,6 +52,7 @@ Abaixo estão as etiquetas utilizadas para filtrar os testes por funcionalidade:
 ## Execução Combinada
 Para rodar todos os testes de um módulo de uma só vez, utilize as tags agrupadas por vírgula no terminal:
 *  mvn test "-Dkarate.options=--tags @ListarTodosOsLivros,@ConsultarLivroPorID,@AssociarLivro,@AtualizarLivro,@DeletarLivros"
+  
 *  mvn test "-Dkarate.options=--tags @CriarUsuario,@Token,@DeletarUsuario"
 
 # Relatórios de Execução
