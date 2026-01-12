@@ -26,11 +26,11 @@ O projeto foi estruturado para suportar execuções **independentes** e **flexí
 
 ## Via Terminal (Maven)
 A execução via terminal utiliza o Maven, permitindo rodar uma ou mais tags simultaneamente:
-* mvn test "-Dkarate.options=--tags @NomeDaTag"`
+* mvn test "-Dkarate.options=--tags @NomeDaTag"
 
 ## Via IDE (Runner Java)
 A execução ocorre através do Runner `testParallelTags`, bastando editar o filtro diretamente no código:
-* .tags("@NomeDaTag")`
+* .tags("@NomeDaTag")
 
 # Tags Disponíveis
 ## Execução Individual
