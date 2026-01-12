@@ -5,7 +5,6 @@ Este projeto consiste em uma suíte de testes automatizados para a API **BookSto
 * **Karate DSL:** Framework focado em BDD para testes de API, simplificando chamadas HTTP e asserções.
 * **Maven:** Gerenciador de dependências e automação de build para execução dos testes.
 * **Java 21:** Linguagem base utilizada para a infraestrutura de execução do projeto.
-* **JUnit 5:** Runner utilizado para integração, execução paralela e geração de logs.
 
 # Estrutura do Projeto
 A organização dos arquivos no diretório `src/test/java/` segue a lógica de separação por responsabilidades:
